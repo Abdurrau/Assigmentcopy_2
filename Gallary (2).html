@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style media="screen">
+		body {
+			margin: 0;
+			padding: 0;
+			background: #EEE;
+			font: 10px/13px 'Lucida Sans', sans-serif;
+		}
+
+		.wrap {
+			overflow: hidden;
+			margin: 10px;
+			max-width: 1500px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.box {
+			float: left;
+			position: relative;
+			width: 20%;
+			padding-bottom: 20%;
+		}
+
+		.boxInner {
+			position: absolute;
+			left: 10px;
+			right: 10px;
+			top: 10px;
+			bottom: 10px;
+			overflow: hidden;
+		}
+
+		.boxInner img {
+			width: 100%
+		}
+
+
+		@media only screen and (max-width:480px) {
+
+			/* Smartphone view: 1 tile */
+			.box {
+				width: 100%;
+				padding-bottom: 100%;
+			}
+		}
+
+		@media only screen and (max-width:650px) and (min-width:481px) {
+
+			/* Tablet view: 2 tiles */
+			.box {
+				width: 50%;
+				padding-bottom: 50%;
+			}
+		}
+
+		@media only screen and (max-width:1050px) and (min-width:651px) {
+
+			/* Small desktop / ipad view: 3 tiles */
+			.box {
+				width: 33.3%;
+				padding-bottom: 33.3%;
+			}
+		}
+
+		@media only screen and (max-width:1290px) and (min-width:1051px) {
+
+			/* Medium desktop: 4 tiles */
+			.box {
+				width: 25%;
+				padding-bottom: 25%;
+			}
+		}
+		
+                      
+				          h1{
+                                   color: rgb(32, 8, 8);
+								   font-weight: 300;
+								   font-size: 40px;
+								   text-align: center;
+								   padding-top: 0px;
+				              }
+
+					 p         {
+                                 color: black;
+								 font-size: 25px;
+								 text-align: center;
+					           }
+	</style>
+</head>
+
+<body>  
+	    <div class="heading">
+			 <h1> Our Furniture Gallary</h1>
+			 <p>our beautiful furniture gallary we have a quality product wich include chair bed and so more</p>
+			 </div>
+	<div class="wrap">
+		<!-- Define all of the tiles: -->
+		<div class="box">
+			<div class="boxInner">
+				<img src="chair/ch1.jpg" />
+				<div class="titleBox">
+					
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="boxInner">
+				<img
+					src="chair/ch2.jpg" />
+				<div class="titleBox">
+				
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="boxInner">
+				<img src="chair/ch3.jpg"/>
+			<div class=" titleBox">
+			
+			</div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img
+				src="chair/ch5.jfif"/>
+			<div class="titleBox">
+			
+			</div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img
+				src="chair/ch6.jpg" />
+			<div class="titleBox">
+				
+			</div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img
+				src="bed/double1.jpg" />
+			<div class="titleBox">
+	
+			</div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img
+				src="bed/double2.jpg" />
+			<div class="titleBox">
+			
+			</div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img src="bed/double3.jpg" width="20px" />
+			<div class="titleBox">
+				
+			</div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img src="bed/double4.jpg"  height="200px"/>
+			<div class="titleBox">
+				
+			</div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img
+				src="bed/double5.jpg"/ height="200px">
+			<div class="titleBox">
+				
+			</div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img
+				src="bookrack/book1.jpg" />
+			<div class="titleBox">
+				
+			</div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="boxInner">
+			<img src="bookrack/book2.jpg" />
+		      <div class="titleBox">
+			
+			</div>
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner">
+			<img src="bookrack/book2.jpg" />
+		      <div class="titleBox">
+			
+			</div>
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner">
+			<img src="bookrack/book3.jpg" />
+		      <div class="titleBox">
+			
+			</div>
+		</div>
+	</div>
+
+	<div class="box">
+		<div class="boxInner">
+			<img src="bookrack/book4.jpg" />
+		      <div class="titleBox">
+			
+			</div>
+		</div>
+	</div>
+	</div>
+</body>
+
+</html>
